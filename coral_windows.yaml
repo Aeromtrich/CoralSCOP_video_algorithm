@@ -1,0 +1,43 @@
+name: coralscop
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=1.11.0
+  - torchvision=0.12.0
+  - cudatoolkit=10.2
+  - numpy=1.22.3
+  - pillow=9.0.1
+  - pip=21.2.4
+  - matplotlib=3.5.2
+  - scipy=1.8.1
+  - pandas=1.4.2
+  - pyyaml=6.0
+  - tqdm=4.64.0
+  - pip:
+    - mmcv-full==1.5.3
+    - mmcv==1.5.3
+    - opencv-python==4.6.0.66
+    - timm==0.5.4
+    - einops==0.6.1
+    - sahi==0.11.14
+    - segment-anything==1.0
+    - scikit-image==0.20.0
+    - scikit-learn==1.2.2
+    - tensorboard==2.13.0
+    - seaborn==0.12.0
+    - fire==0.5.0
+    - addict==2.4.0
+    - yapf==0.32.0
+    - tabulate==0.8.10
+    - thop==0.1.0-2206102148
+    - openmim==0.2.0
+    - fvcore==0.1.5.post20221221
+    - iopath==0.1.10
+    - pycocotools==2.0.4
+    - pybboxes==0.1.6
+    - shapely==2.0.1
+    - simplification==0.6.11
+    - onnx==1.12.0

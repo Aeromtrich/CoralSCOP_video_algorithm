@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Large archives / model bundles
+*.tar
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Model checkpoints
+checkpoints/
